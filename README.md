@@ -32,16 +32,17 @@
 ```bash
 git clone https://github.com/ananyaashettyy/MikeLegal.git
 cd MikeLegal
-```bash
+
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
-```bash
+
 
 
 ### 3. Start Development Server
 ```bash
 npm run dev
-```bash
+
 The app will be running at: http://localhost:5173
