@@ -6,7 +6,7 @@ import { deleteTask } from '../features/tasks/taskSlice';
 const categoryColors = {
   Completed: 'green',
   InProgress: 'orange',
-  Blocked: 'red',
+  Urgent: 'red',
   NotStarted: 'blue',
 };
 

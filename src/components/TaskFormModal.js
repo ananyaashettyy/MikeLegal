@@ -66,10 +66,10 @@ function TaskFormModal({ open, onClose, selectedDate, editingTask }) {
                 value={values.category}
                 onChange={value => handleChange({ target: { name: 'category', value } })}
               >
-                <Option value="Completed">Success</Option>
-                <Option value="InProgress">Warning</Option>
-                <Option value="Blocked">Issue</Option>
-                <Option value="NotStarted">Info</Option>
+                <Option value="Completed">Completed</Option>
+                <Option value="InProgress">InProgress</Option>
+                <Option value="Urgent">Urgent</Option>
+                <Option value="NotStarted">NotStarted</Option>
               </Select>
             </Form.Item>
 

@@ -6,7 +6,7 @@ import { Select, Button } from 'antd';
 const COLORS = {
   Completed: '#52c41a',
   InProgress: '#faad14',
-  Blocked: '#ff4d4f',
+ Urgent : '#ff4d4f',
   NotStarted: '#1890ff',
 };
 
@@ -37,7 +37,7 @@ function TaskChart() {
       >
         <Select.Option value="Completed">Completed</Select.Option>
         <Select.Option value="InProgress">InProgress</Select.Option>
-        <Select.Option value="Blocked">Blocked</Select.Option>
+        <Select.Option value="Urgent">Urgent</Select.Option>
         <Select.Option value="NotStarted">NotStarted</Select.Option>
       </Select>
       <Button onClick={() => setSelectedCategory(null)}>Reset</Button>
