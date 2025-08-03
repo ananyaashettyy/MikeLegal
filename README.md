@@ -26,23 +26,23 @@
 ---
 
 ##  Getting Started
-
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/ananyaashettyy/MikeLegal.git
 cd MikeLegal
+```
 
-
-### 2. Install Dependencies
+### 2. Install frontend dependencies
 
 ```bash
 npm install
+```
 
+### 3. Start the frontend server
 
-
-### 3. Start Development Server
 ```bash
 npm run dev
+```
 
 The app will be running at: http://localhost:5173
